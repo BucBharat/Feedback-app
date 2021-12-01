@@ -1,4 +1,5 @@
 <script>
+	import FeedbackForm from './components/FeedbackForm.svelte'
 	import FeedbackList from './components/FeedbackList.svelte'
 	import FeedbackStats from './components/FeedbackStats.svelte'
 	let feedback = [
@@ -31,6 +32,7 @@
 
 <main class='container'>
 	<!-- <h1>Hello</h1> -->
+	<FeedbackForm/>
 	<FeedbackStats {count} {average} /> 
 	<!-- <h1>{count}</h1>
 	<h1>{average}</h1> -->
